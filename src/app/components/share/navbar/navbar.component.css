@@ -1,0 +1,18 @@
+h1:hover{
+    color: gray;
+}
+
+img {
+  width: 20px;
+  margin: 0px 20px;
+}
+
+a {
+  color: #000000;
+  font-size: 15px;
+}
+
+a:hover {
+  color: #f3dbd6;
+  text-decoration: none;
+}
