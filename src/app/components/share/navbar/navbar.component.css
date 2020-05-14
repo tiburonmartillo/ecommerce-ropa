@@ -1,5 +1,16 @@
-h1:hover{
+*{
+  font-family: 'futura',sans-serif;
+}
+
+h2{
+  color: #000000;
+  transition: .5s;
+}
+
+h2:hover{
     color: gray;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 img {
@@ -10,9 +21,11 @@ img {
 a {
   color: #000000;
   font-size: 15px;
+  transition: .5s;
 }
 
 a:hover {
   color: #f3dbd6;
   text-decoration: none;
+  transition: .5s;
 }
