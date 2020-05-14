@@ -6,6 +6,8 @@ import { NavbarComponent } from './components/share/navbar/navbar.component';
 import { FooterComponent } from './components/share/footer/footer.component';
 import { HeaderComponent } from './components/share/header/header.component';
 import { SliderPromosComponent } from './components/share/slider-promos/slider-promos.component';
+import { BodyComponent } from './components/body/body.component';
+import { IntroComponent } from './components/body/intro/intro.component';
 
 
 @NgModule({
@@ -15,6 +17,8 @@ import { SliderPromosComponent } from './components/share/slider-promos/slider-p
     FooterComponent,
     HeaderComponent,
     SliderPromosComponent,
+    BodyComponent,
+    IntroComponent,
  
   ],
   imports: [
