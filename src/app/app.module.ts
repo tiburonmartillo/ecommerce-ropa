@@ -10,6 +10,8 @@ import { BodyComponent } from './components/body/body.component';
 import { IntroComponent } from './components/body/intro/intro.component';
 import { OurProductsComponent } from './components/body/our-products/our-products.component';
 import { NovedadesComponent } from './components/body/novedades/novedades.component';
+import { NewsletterComponent } from './components/body/newsletter/newsletter.component';
+import { GaleriaComponent } from './components/body/galeria/galeria.component';
 
 
 @NgModule({
@@ -23,6 +25,8 @@ import { NovedadesComponent } from './components/body/novedades/novedades.compon
     IntroComponent,
     OurProductsComponent,
     NovedadesComponent,
+    NewsletterComponent,
+    GaleriaComponent,
  
   ],
   imports: [

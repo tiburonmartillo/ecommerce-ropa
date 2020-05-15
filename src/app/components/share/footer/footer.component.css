@@ -14,6 +14,11 @@ padding-left: 20px;
 button{
     background: #000;
 }
+button:hover{
+    background: #ffff;
+    color: #000000;
+    transition: .5s;
+}
 
 .creditos{
     font-size: smaller;
@@ -22,3 +27,4 @@ button{
 li:nth-child(1){
     font-weight:bolder;
 }
+
