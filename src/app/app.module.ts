@@ -9,6 +9,7 @@ import { SliderPromosComponent } from './components/share/slider-promos/slider-p
 import { BodyComponent } from './components/body/body.component';
 import { IntroComponent } from './components/body/intro/intro.component';
 import { OurProductsComponent } from './components/body/our-products/our-products.component';
+import { NovedadesComponent } from './components/body/novedades/novedades.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { OurProductsComponent } from './components/body/our-products/our-product
     BodyComponent,
     IntroComponent,
     OurProductsComponent,
+    NovedadesComponent,
  
   ],
   imports: [
