@@ -9,3 +9,7 @@ img {
     height: 3px;
     background: #000;
 }
+
+button:hover{
+  background: #000;
+}
