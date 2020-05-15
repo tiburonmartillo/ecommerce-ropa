@@ -1,0 +1,12 @@
+*{
+    font-family: 'futura',sans-serif;
+}
+
+h1{
+    font-weight: bolder;
+}
+
+.fondo{
+    height: 100vh;
+    margin-top: 15vh;
+}
