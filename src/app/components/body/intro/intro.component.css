@@ -8,5 +8,9 @@ h1{
 
 .fondo{
     height: 100vh;
-    margin-top: 15vh;
+   
+}
+
+a:hover{
+    background: #000;
 }

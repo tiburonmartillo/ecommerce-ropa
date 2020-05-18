@@ -4,13 +4,15 @@ img {
 .tarjeta {
   background: #f4ebe2;
 }
-.linea {
-    width: 30px;
-    height: 3px;
-    background: #000;
+.tarjeta1{
+  background: #F1D5CF;
 }
+
 
 button:hover{
   background: #000;
 }
 
+h2{
+  font-size: 40px;
+}

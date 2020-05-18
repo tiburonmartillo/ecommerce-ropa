@@ -3,7 +3,12 @@
     width: 100%;
     overflow: hidden;
   }
-  
+  .linea{
+      width: 20px;
+      height: 3px;
+      background: #000;
+  }
+
   .img {
     display: block;
     width: 100%;
@@ -14,7 +19,10 @@
     transition: 1s;
   }
   
-
+h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
 
 .overlay {
     position: absolute;
@@ -32,6 +40,7 @@
   .container:hover .overlay {
     opacity: 1;
     height: 20%;
+  
   }
   
   .text {
@@ -41,8 +50,4 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-  }
-
-  .tarjetaproducto{
-    cursor: pointer;
   }

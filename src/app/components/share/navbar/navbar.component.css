@@ -29,3 +29,7 @@ a:hover {
   text-decoration: none;
   transition: .5s;
 }
+
+.login{
+  cursor: pointer;
+}

@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { appRouting } from "./app.routes";
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/share/navbar/navbar.component';
@@ -12,6 +13,11 @@ import { OurProductsComponent } from './components/body/our-products/our-product
 import { NovedadesComponent } from './components/body/novedades/novedades.component';
 import { NewsletterComponent } from './components/body/newsletter/newsletter.component';
 import { GaleriaComponent } from './components/body/galeria/galeria.component';
+import { ProductosComponent } from './components/secciones/productos/productos.component';
+import { AboutComponent } from './components/secciones/about/about.component';
+import { UbicacionesComponent } from './components/secciones/ubicaciones/ubicaciones.component';
+import { PantallaProductosComponent } from './components/share/pantalla-productos/pantalla-productos.component';
+
 
 
 @NgModule({
@@ -27,10 +33,17 @@ import { GaleriaComponent } from './components/body/galeria/galeria.component';
     NovedadesComponent,
     NewsletterComponent,
     GaleriaComponent,
+    ProductosComponent,
+    AboutComponent,
+    UbicacionesComponent,
+    PantallaProductosComponent,
+    
  
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    appRouting,
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
