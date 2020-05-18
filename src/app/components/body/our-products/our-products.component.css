@@ -2,13 +2,20 @@
     position: relative;
     width: 100%;
     overflow: hidden;
+   
   }
   
   .img {
     display: block;
     width: 100%;
     height: auto;
+    
+    
   }
+  .container img{
+    transition: 1s;
+  }
+
   .container:hover img{
     transform: scale(1.5);
     transition: 1s;

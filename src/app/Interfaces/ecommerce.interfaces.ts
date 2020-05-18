@@ -7,7 +7,7 @@ export interface DepartmentsInterface {
   id: number;
   department: string;
 }
-export interface ProductsInterface {
+export interface ProductsInterface{
   id: number;
   brand: number;
   department: number;

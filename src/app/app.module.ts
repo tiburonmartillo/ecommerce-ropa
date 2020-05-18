@@ -17,6 +17,7 @@ import { ProductosComponent } from './components/secciones/productos/productos.c
 import { AboutComponent } from './components/secciones/about/about.component';
 import { UbicacionesComponent } from './components/secciones/ubicaciones/ubicaciones.component';
 import { PantallaProductosComponent } from './components/share/pantalla-productos/pantalla-productos.component';
+import { NotfoundComponent } from './components/share/notfound/notfound.component';
 
 
 
@@ -37,7 +38,7 @@ import { PantallaProductosComponent } from './components/share/pantalla-producto
     AboutComponent,
     UbicacionesComponent,
     PantallaProductosComponent,
-    
+    NotfoundComponent
  
   ],
   imports: [

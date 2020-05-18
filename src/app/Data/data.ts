@@ -55,7 +55,7 @@ export const brand:BrandInterface[] = [
     },
 ]
 
-export const products:ProductsInterface[] = [
+export const Products:ProductsInterface[] = [
   {
     id:1,
     brand:1,
