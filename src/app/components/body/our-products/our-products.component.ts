@@ -27,7 +27,7 @@ export class OurProductsComponent implements OnInit {
     from(Products)
       .pipe(
         map((producto)=>{
-          let DireccionImagen=`${producto.img}`;
+          let DireccionImagen=`../../../../${producto.img}`;
           return{...producto,img:DireccionImagen,}
         }),
         take(4),
