@@ -1,18 +1,17 @@
-<div class="text-center col-12 mt-5">
-    <h2>LIFESTYLE</h2>
-       <p>Encuentra productos increíbles diseñados para ti</p>
+<div class="text-center p-0 mt-5">
+  <h2>LIFESTYLE</h2>
+  <p>Encuentra productos increíbles diseñados para ti</p>
 </div>
 
-
-<div class="card-group">
-    <div class="card m-3 border-0 tarjetaproducto" *ngFor="let producto of ProductosDestacados">
-        <div class="container" *ngIf="mostrar==false" >
-            <img [src]="producto.img" class="card-img-top" alt="...">
-            <div class="overlay text-center"><div class="text" (click)="GetIdToChangeScreen(producto.id)">Detalles</div>
-        </div>
-      <div class="card-body text-center">
-        <h5 class="card-title">{{producto.product}}</h5>
-        <p class="card-text">${{producto.price}}</p>
+<div class="card-group"  *ngIf="mostrar==false">
+  <div class="card m-3 border-0" *ngFor="let producto of ProductosDestacados">
+      <div class="container">
+          <img [src]="producto.img" class="card-img-top" alt="{{producto.product}}">
+          <div class="overlay text-center"><div class="text">Detalles</div></div>
       </div>
+    <div class="card-body text-center">
+      <h5 class="card-title">{{producto.product}}</h5>
+      <p class="card-text">${{producto.price}}</p>
     </div>
   </div>
+</div>

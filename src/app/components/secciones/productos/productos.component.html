@@ -5,134 +5,15 @@
 </div>
 
 
-<div class="card-group">
-    <div class="card m-3 border-0" routerLink="producto-detalle/:id">
-        <div class="container">
-            <img src="../../../../assets/img/tote1.png" class="card-img-top" alt="...">
+<div class="card-deck col-12  text-center"  *ngIf="mostrar==false">
+    <div class="card col-3 m-3 border-0 d-flex flex-wrap p-0" style="min-width: 20em;" *ngFor="let producto of ProductosDestacados">
+        <div class="container p-0">
+            <img [src]="producto.img" class="card-img-top" alt="{{producto.product}}">
             <div class="overlay text-center"><div class="text">Detalles</div></div>
         </div>
-      <div class="card-body text-center">
-        <h5 class="card-title">Bolsa grande</h5>
-        <p class="card-text">$100</p>
+      <div class="card-body">
+        <h5 class="card-title">{{producto.product}}</h5>
+        <p class="card-text">${{producto.price}}</p>
       </div>
     </div>
-    <div class="card m-3 border-0">
-        <div class="container">
-            <img src="../../../../assets/img/tote2.png" class="card-img-top" alt="...">
-            <div class="overlay text-center"><div class="text">Detalles</div></div>
-        </div>
-      <div class="card-body text-center">
-        <h5 class="card-title">Bolsa grande</h5>
-        <p class="card-text">$100</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0">
-        <div class="container">
-            <img src="../../../../assets/img/tote1.png" class="card-img-top" alt="...">
-            <div class="overlay text-center"><div class="text">Detalles</div></div>
-        </div>
-      <div class="card-body text-center">
-        <h5 class="card-title">Bolsa grande</h5>
-        <p class="card-text">$100</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0">
-        <div class="container">
-            <img src="../../../../assets/img/tote2.png" class="card-img-top" alt="...">
-            <div class="overlay text-center"><div class="text">Detalles</div></div>
-        </div>
-      <div class="card-body text-center">
-        <h5 class="card-title">Bolsa grande</h5>
-        <p class="card-text">$100</p>
-      </div>
-    </div>
- 
-  </div>
-
-<div class="card-group">
-    <div class="card m-3 border-0">
-        <div class="container">
-            <img src="../../../../assets/img/tote1.png" class="card-img-top" alt="...">
-            <div class="overlay text-center"><div class="text">Detalles</div></div>
-        </div>
-      <div class="card-body text-center">
-        <h5 class="card-title">Bolsa grande</h5>
-        <p class="card-text">$100</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0">
-        <div class="container">
-            <img src="../../../../assets/img/tote2.png" class="card-img-top" alt="...">
-            <div class="overlay text-center"><div class="text">Detalles</div></div>
-        </div>
-      <div class="card-body text-center">
-        <h5 class="card-title">Bolsa grande</h5>
-        <p class="card-text">$100</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0">
-        <div class="container">
-            <img src="../../../../assets/img/tote1.png" class="card-img-top" alt="...">
-            <div class="overlay text-center"><div class="text">Detalles</div></div>
-        </div>
-      <div class="card-body text-center">
-        <h5 class="card-title">Bolsa grande</h5>
-        <p class="card-text">$100</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0">
-        <div class="container">
-            <img src="../../../../assets/img/tote2.png" class="card-img-top" alt="...">
-            <div class="overlay text-center"><div class="text">Detalles</div></div>
-        </div>
-      <div class="card-body text-center">
-        <h5 class="card-title">Bolsa grande</h5>
-        <p class="card-text">$100</p>
-      </div>
-    </div>
- 
-  </div>
-
-<div class="card-group">
-    <div class="card m-3 border-0">
-        <div class="container">
-            <img src="../../../../assets/img/tote1.png" class="card-img-top" alt="...">
-            <div class="overlay text-center"><div class="text">Detalles</div></div>
-        </div>
-      <div class="card-body text-center">
-        <h5 class="card-title">Bolsa grande</h5>
-        <p class="card-text">$100</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0">
-        <div class="container">
-            <img src="../../../../assets/img/tote2.png" class="card-img-top" alt="...">
-            <div class="overlay text-center"><div class="text">Detalles</div></div>
-        </div>
-      <div class="card-body text-center">
-        <h5 class="card-title">Bolsa grande</h5>
-        <p class="card-text">$100</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0">
-        <div class="container">
-            <img src="../../../../assets/img/tote1.png" class="card-img-top" alt="...">
-            <div class="overlay text-center"><div class="text">Detalles</div></div>
-        </div>
-      <div class="card-body text-center">
-        <h5 class="card-title">Bolsa grande</h5>
-        <p class="card-text">$100</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0">
-        <div class="container">
-            <img src="../../../../assets/img/tote2.png" class="card-img-top" alt="...">
-            <div class="overlay text-center"><div class="text">Detalles</div></div>
-        </div>
-      <div class="card-body text-center">
-        <h5 class="card-title">Bolsa grande</h5>
-        <p class="card-text">$100</p>
-      </div>
-    </div>
- 
   </div>

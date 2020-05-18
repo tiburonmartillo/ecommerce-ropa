@@ -1,55 +1,53 @@
 .container {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-   
-  }
-  
-  .img {
-    display: block;
-    width: 100%;
-    height: auto;
-    
-    
-  }
-  .container img{
-    transition: .5s;
-  }
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.linea{
+    width: 20px;
+    height: 3px;
+    background: #000;
+}
 
-  .container:hover img{
-    transform: scale(1.5);
-    transition: .5s;
-  }
-  
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.container:hover img{
+  transform: scale(1.5);
+  transition: 1s;
+}
 
+h2{
+  font-size: 40px;
+  font-weight: bolder;
+}
 
 .overlay {
-    position: absolute;
-    top: 200;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 0%;
-    width: 100%;
-    opacity: 0;
-    transition: .3s ease;
-    background-color: rgba(255, 255, 255, 0.356);
-  }
-  
-  .container:hover .overlay {
-    opacity: 1;
-    height: 20%;
-  }
-  
-  .text {
-    color: #000000;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
+  position: absolute;
+  top: 200;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: rgba(255, 255, 255, 0.356);
+}
 
-  .tarjetaproducto{
-    cursor: pointer;
-  }
+.container:hover .overlay {
+  opacity: 1;
+  height: 20%;
+
+}
+
+.text {
+  color: #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
