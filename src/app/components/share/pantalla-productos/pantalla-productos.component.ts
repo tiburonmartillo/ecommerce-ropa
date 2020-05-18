@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {  ProductsInterface } from "../../../Interfaces/ecommerce.interfaces";
 import { ActivatedRoute } from '@angular/router';
 import { filter, map, pluck, switchMap } from 'rxjs/operators';
-import { from, } from 'rxjs';
+import { from, Observable } from 'rxjs';
 import { Products } from "../../../Data/data";
 
 @Component({

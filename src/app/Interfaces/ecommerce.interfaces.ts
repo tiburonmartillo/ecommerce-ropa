@@ -17,5 +17,5 @@ export interface ProductsInterface{
   img:string;
   description:Array<any>;
   price: number;
-  msi: boolean;
+  msi?: boolean;
 }
