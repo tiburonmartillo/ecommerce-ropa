@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ProductsInterface, DepartmentsInterface, BrandInterface } from '../../../interfaces/ecommerce.interfaces';
-import { Products, departments,brand } from '../../../Data/data';
+import { ProductsInterface } from '../../../Interfaces/ecommerce.interfaces';
+import { Products } from '../../../Data/data';
 import { ActivatedRoute } from '@angular/router';
 import { from } from 'rxjs';
 import { filter, map, pluck, switchMap } from 'rxjs/operators';
@@ -13,7 +13,7 @@ import { filter, map, pluck, switchMap } from 'rxjs/operators';
 export class PantallaProductosComponent implements OnInit {
   public mostrar = false;
   public producto: ProductsInterface;
-  public departamento:DepartmentsInterface;
+  
 
   constructor(private AR: ActivatedRoute) {
     this.AR.params
