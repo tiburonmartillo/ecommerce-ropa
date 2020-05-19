@@ -36,6 +36,6 @@ export class ProductosComponent implements OnInit {
       .subscribe((value) => console.log(this.ProductosDestacados));
   }
   GetIdToChangeScreen(id:number){
-    this.router.navigate(['pantalla-productos',id])
+    this.router.navigate(['producto-detalle',id])
   }
 }

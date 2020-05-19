@@ -5,8 +5,15 @@
     overflow: hidden;
   }
   
-  .img {
+  img {
     display: block;
     width: 400px;
     height: 400px;
+   transition: .5s;
+   opacity: 1;
   }
+
+img:hover{
+transition: .5s;
+filter:brightness(0.5);
+}

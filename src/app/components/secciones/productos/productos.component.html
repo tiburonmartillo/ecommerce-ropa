@@ -5,11 +5,11 @@
 </div>
 
 
-<div class="card-deck col-12  text-center"  *ngIf="mostrar==false">
-    <div class="card col-3 m-3 border-0 d-flex flex-wrap p-0" style="min-width: 20em;" *ngFor="let producto of ProductosDestacados">
+<div class="card-deck col-12 p-5 text-center"  *ngIf="mostrar==false">
+    <div class="card col-3 m-1 border-0 d-flex flex-wrap p-1" style="min-width: 20em;" *ngFor="let producto of ProductosDestacados">
         <div class="container p-0">
             <img [src]="producto.img" class="card-img-top" alt="{{producto.product}}">
-            <div class="overlay text-center"><div class="text">Detalles</div></div>
+            <div class="overlay text-center" (click)="GetIdToChangeScreen(producto.id)"><div class="text">Detalles</div></div>
         </div>
       <div class="card-body">
         <h5 class="card-title">{{producto.product}}</h5>

@@ -7,7 +7,7 @@
   <div class="card m-3 border-0" *ngFor="let producto of ProductosDestacados">
       <div class="container">
           <img [src]="producto.img" class="card-img-top" alt="{{producto.product}}">
-          <div class="overlay text-center"><div class="text">Detalles</div></div>
+          <div class="overlay text-center"  (click)="GetIdToChangeScreen(producto.id)"><div class="text">Detalles</div></div>
       </div>
     <div class="card-body text-center">
       <h5 class="card-title">{{producto.product}}</h5>
