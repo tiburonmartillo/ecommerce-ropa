@@ -1,6 +1,4 @@
-img {
-  width: 100%;
-}
+
 .tarjeta {
   background: #f4ebe2;
 }
@@ -13,6 +11,3 @@ button:hover{
   background: #000;
 }
 
-h2{
-  font-size: 40px;
-}
