@@ -20,5 +20,7 @@
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true,
     "enableIvy": false
-  }
+  },"dependencies": {
+  "socket.io-parser": ">=3.3.2"
+}
 }
